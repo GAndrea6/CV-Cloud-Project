@@ -1,0 +1,30 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.container {
+    background: #ffffff;
+    max-width: 600px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+header h1 {
+    margin: 0;
+    color: #0078d4; /* Azure Blue */
+}
+
+.counter-box {
+    background: #e1f0da;
+    border-left: 4px solid #107c41;
+    padding: 10px 15px;
+    margin: 20px 0;
+    font-weight: bold;
+}

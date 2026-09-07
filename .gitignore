@@ -1,0 +1,12 @@
+.terraform/
+**/.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+backend/local.settings.json
+local.settings.json
+__pycache__/
+*.pyc
+__azurite*
+__blobstorage__
