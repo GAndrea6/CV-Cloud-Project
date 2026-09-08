@@ -3,11 +3,11 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 
-const functionApiUrl = ' https://func-resumegara.azurewebsites.net/api/getresumecounter'; 
+const functionApiUrl = 'https://func-resumegara.azurewebsites.net/api/getresumecounter'; 
 
 function getVisitCount() {
     
-    fetch('https://func-resumegara.azurewebsites.net/api/GetResumeCounter')
+    fetch('https://func-resumegara.azurewebsites.net/api/getresumecounter')
         .then(response => response.json())
         .then(data => {
             document.getElementById('counter').innerText = data.count;
